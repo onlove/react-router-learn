@@ -14,7 +14,7 @@ module.exports = {
         hot: true,
         inline: true,
         contentBase: './build',
-        port: 8080,
+        port: 8092,
         stats: { colors: true }
     },
     entry: {
@@ -60,6 +60,6 @@ module.exports = {
             title: '珠峰培训',
             template: './app/index.html'
         }),
-        new OpenBrowserPlugin({ url: 'http://localhost:8080' })
+        new OpenBrowserPlugin({ url: 'http://localhost:8092' })
     ]
 };
