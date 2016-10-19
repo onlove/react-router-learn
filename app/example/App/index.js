@@ -207,44 +207,6 @@ class App extends Component {
 export default App;
 
 
-//import React, { Component } from 'react';
-//import { Router, Route, browserHistory, Link, IndexRoute } from 'react-router';
-//
-//import './index.css';
-//
-//
-//const Links = () =>
-//<nav>
-//<Link to="/">Hello</Link>
-//    <Link to="/yong">Yong</Link>
-//    <Link to="/feng">Feng</Link>
-//    </nav>
-//
-//    class Message extends Component {
-//        render(){
-//            console.log(this.props)
-//            return (
-//                <div>
-//                <h1>{this.props.params.message || 'Hello'}</h1>
-//            <Links />
-//            </div>
-//        )
-//        }
-//    }
-//
-//class App extends Component {
-//    render() {
-//        return (
-//            <Router history={browserHistory}>
-//            <Route path="/(:message)" component={Message} />
-//            </Router>
-//    )
-//    }
-//}
-//
-//export default App;
-
-
 
 
 
